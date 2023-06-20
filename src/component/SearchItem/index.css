@@ -1,0 +1,37 @@
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70%;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  box-shadow: 5px 5px 5px #64748b;
+}
+
+.time {
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: roboto;
+  font-weight: 400;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 20px;
+  width: 600px;
+}
+
+.logoUrl {
+  height: 20px;
+  width: 35px;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.delete-button-container {
+  padding-right: 10px;
+  margin-top: 20px;
+}
